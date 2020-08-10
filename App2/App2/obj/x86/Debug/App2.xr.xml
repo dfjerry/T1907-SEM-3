@@ -31,7 +31,6 @@
       <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="App2.AlignPanel2" />
-    <RootType FullName="App2.BlankPage2" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Children" />
     </RootType>

@@ -76,9 +76,6 @@
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\App2\App2\bin\x86\Debug\AlignPanel2.xbf">
       <PackagePath>AlignPanel2.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\App2\App2\bin\x86\Debug\BlankPage2.xbf">
-      <PackagePath>BlankPage2.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\App2\App2\bin\x86\Debug\Canvas.xbf">
       <PackagePath>Canvas.xbf</PackagePath>
     </AppxPackagedFile>

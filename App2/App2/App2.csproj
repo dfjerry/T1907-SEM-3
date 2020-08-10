@@ -125,9 +125,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BlankPage2.xaml.cs">
-      <DependentUpon>BlankPage2.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Canvas.xaml.cs">
       <DependentUpon>Canvas.xaml</DependentUpon>
     </Compile>
@@ -173,10 +170,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="AlignPanel2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="BlankPage2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
