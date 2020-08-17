@@ -30,7 +30,7 @@ namespace Tutorial3.Model
                 Headline = "Lerem Ipsum 1",
                 Subhead = "doro sit amet 1",
                 DateLine = "Nunc tristique nec 1",
-                Image = "Assets/Financial1.png"
+                Image = "Assets/Financial2.png"
             });
 
             items.Add(new NewsItem()
@@ -40,7 +40,7 @@ namespace Tutorial3.Model
                 Headline = "Lerem Ipsum 2",
                 Subhead = "doro sit amet 2",
                 DateLine = "Nunc tristique nec 2",
-                Image = "Assets/Financial2.png"
+                Image = "Assets/Financial3.png"
             });
 
             items.Add(new NewsItem()
@@ -50,7 +50,7 @@ namespace Tutorial3.Model
                 Headline = "Lerem Ipsum 3",
                 Subhead = "doro sit amet 3",
                 DateLine = "Nunc tristique nec 3",
-                Image = "Assets/Financial3.png"
+                Image = "Assets/Financial4.png"
             });
             items.Add(new NewsItem()
             {
@@ -59,16 +59,16 @@ namespace Tutorial3.Model
                 Headline = "Lerem Ipsum 4",
                 Subhead = "doro sit amet 4",
                 DateLine = "Nunc tristique nec 4",
-                Image = "Assets/Financial4.png"
+                Image = "Assets/Financial5.png"
             });
             items.Add(new NewsItem()
             {
                 Id = 5,
-                Category = "Food",
+                Category = "Financial",
                 Headline = "Lerem Ipsum 5",
                 Subhead = "doro sit amet 5",
                 DateLine = "Nunc tristique nec 5",
-                Image = "Assets/Financial5.png"
+                Image = "Assets/Financial.png"
             });
             items.Add(new NewsItem()
             {

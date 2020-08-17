@@ -72,7 +72,7 @@
                 <GridView Name="NewsItemGrid"
                           ItemsSource="{x:Bind NewsItems}"
                           HorizontalAlignment="Stretch"
-                          Margin="10,0,0,0">
+                          Margin="10,0,0,0" SelectionChanged="NewsItemGrid_SelectionChanged">
                     <GridView.ItemTemplate>
                         <DataTemplate x:DataType="data:NewsItem">
                             <Grid Background="White" Margin="10" Height="275" Width="200">

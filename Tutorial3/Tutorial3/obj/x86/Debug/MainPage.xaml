@@ -72,7 +72,7 @@
                 <GridView x:ConnectionId='6' Name="NewsItemGrid"
                                                           
                           HorizontalAlignment="Stretch"
-                          Margin="10,0,0,0">
+                          Margin="10,0,0,0"                                                 >
                     <GridView.ItemTemplate>
                         <DataTemplate                           >
                             <Grid x:ConnectionId='8' Background="White" Margin="10" Height="275" Width="200">

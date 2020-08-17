@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a1b477cd-c6d8-4387-a35a-840278b26890</PackageIdentityName>
     <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Admin\source\repos\Tutorial3\Tutorial3\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>2EE86DAC371CF75F9E66D573C361828EB49E5E2F7E5CA6A6321D89F1B0258395</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a1b477cd-c6d8-4387-a35a-840278b26890_1.0.0.0_x86__5gyrq6psz227t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a1b477cd-c6d8-4387-a35a-840278b26890_5gyrq6psz227t!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-14T03:41:06.635</Modified>
+      <Modified>2020-08-14T04:11:42.112</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\Tutorial3.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\Tutorial3.exe">
       <PackagePath>entrypoint\Tutorial3.exe</PackagePath>
-      <Modified>2020-08-14T03:41:04.255</Modified>
+      <Modified>2020-08-14T04:11:41.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,111 +46,111 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Financial.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Financial.png">
       <PackagePath>Assets\Financial.png</PackagePath>
       <Modified>2020-08-14T02:32:49.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Financial2.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Financial2.png">
       <PackagePath>Assets\Financial2.png</PackagePath>
       <Modified>2020-08-14T02:32:49.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Financial3.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Financial3.png">
       <PackagePath>Assets\Financial3.png</PackagePath>
       <Modified>2020-08-14T02:32:49.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Financial4.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Financial4.png">
       <PackagePath>Assets\Financial4.png</PackagePath>
       <Modified>2020-08-14T02:32:49.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Financial5.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Financial5.png">
       <PackagePath>Assets\Financial5.png</PackagePath>
       <Modified>2020-08-14T02:32:49.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Food.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Food.png">
       <PackagePath>Assets\Food.png</PackagePath>
       <Modified>2020-08-14T02:32:49.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Food1.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Food1.png">
       <PackagePath>Assets\Food1.png</PackagePath>
       <Modified>2020-08-14T02:32:49.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Food2.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Food2.png">
       <PackagePath>Assets\Food2.png</PackagePath>
       <Modified>2020-08-14T02:32:49.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Food3.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Food3.png">
       <PackagePath>Assets\Food3.png</PackagePath>
       <Modified>2020-08-14T02:32:49.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Food4.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Food4.png">
       <PackagePath>Assets\Food4.png</PackagePath>
       <Modified>2020-08-14T02:32:49.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Food5.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Food5.png">
       <PackagePath>Assets\Food5.png</PackagePath>
       <Modified>2020-08-14T02:32:49.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-08-08T15:24:42.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-08-14T02:31:32.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\Tutorial3.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\Tutorial3.xr.xml">
       <PackagePath>Tutorial3.xr.xml</PackagePath>
-      <Modified>2020-08-14T03:38:52.553</Modified>
+      <Modified>2020-08-14T04:11:17.686</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-14T03:38:52.585</Modified>
+      <Modified>2020-08-14T04:11:41.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-14T03:41:04.076</Modified>
+      <Modified>2020-08-14T04:11:41.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2020-08-14T03:41:04.774</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\Tutorial3\Tutorial3\bin\x86\Debug\Core\Tutorial3.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\Tutorial3\Tutorial3\bin\x86\Debug\Core\Tutorial3.exe">
       <PackagePath>Tutorial3.exe</PackagePath>
-      <Modified>2020-08-14T03:41:06.604</Modified>
+      <Modified>2020-08-14T04:11:42.107</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

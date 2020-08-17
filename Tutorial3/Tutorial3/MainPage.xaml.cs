@@ -50,5 +50,10 @@ namespace Tutorial3
         {
             Financial.IsSelected = true;
         }
+
+        private void NewsItemGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
