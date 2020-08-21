@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>AB7339C99CCD412EE76480D7A9071ECADE6360F22C8F186A6D8A58DA1A50C519</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>5FCC434AC15285CB1B25F66F04FCABE7D3C9E1C58314A234696A38F7F006DBEC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>318fc2b4-1589-4cf7-92e9-83bf090441c1_1.0.0.0_x86__5gyrq6psz227t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>318fc2b4-1589-4cf7-92e9-83bf090441c1_5gyrq6psz227t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>318fc2b4-1589-4cf7-92e9-83bf090441c1</RegisteredPackageID>
@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T05:04:23.582</Modified>
+      <Modified>2020-08-21T04:44:13.685</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -174,11 +174,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-19T04:58:50.311</Modified>
+      <Modified>2020-08-21T04:44:12.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\WeatherAppDemo\WeatherAppDemo\bin\x86\Debug\Core\WeatherAppDemo.exe">
       <PackagePath>WeatherAppDemo.exe</PackagePath>
-      <Modified>2020-08-19T05:04:23.577</Modified>
+      <Modified>2020-08-21T04:44:13.647</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
