@@ -61,3 +61,8 @@ C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\ob
 C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\obj\x86\Debug\YoutubeDemoApp.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\bin\x86\Debug\MyToolkit.Extended\Controls\DatePicker.xbf
+C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\bin\x86\Debug\MyToolkit.Extended\Controls\TimePicker.xbf
+C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\bin\x86\Debug\MyToolkit.Extended\Themes\generic.xbf
+C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeDemoApp\YoutubeDemoApp\bin\x86\Debug\MyToolkit.Extended\UI\Popups\ListPickerBox.xbf

@@ -19,6 +19,7 @@ namespace YoutubeDemoApp
     /// </summary>
     public sealed partial class VideoPage : Page
     {
+    
         Video video;
         public VideoPage()
         {
@@ -31,9 +32,10 @@ namespace YoutubeDemoApp
                 if (NetworkInterface.GetIsNetworkAvailable())
                 {
                     video = e.Parameter as Video;
-                    var Url = await YouTube.GetVideoUriAsync(video.Id, YouTubeQuality.Quality1080P);
-                    Console.WriteLine("Day la url: "+Url);
+                    YouTubeUri Url = await YouTube.GetVideoUriAsync(video.Id, YouTubeQuality.Quality1080P, YouTubeQuality.Quality480P);
+                   
                     Player.Source = Url.Uri;
+                    Player.Play();
                 }
                 else
                 {

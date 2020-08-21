@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pIgqPWw3pMLqrESeLm4fC0JF9YINj+eI8xY8o4RAB1EXvF+DidSwplJvvMp1/ZkBJwRFUvv6acpUhEZng3BdYg==",
+  "dgSpecHash": "/TvDZYP5fIYgpWSXHuJUuBeTtn9OdbGMhHw5J96ppegqM3xumV78oqzXP227ReVI8qi6+V/GqVBpBzPaY3dnVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\dfjerry\\T1907-SEM-3\\YoutubeDemoApp\\YoutubeDemoApp\\YoutubeDemoApp.csproj",
   "expectedPackageFiles": [
@@ -12,8 +12,8 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\mytoolkit\\2.5.16\\mytoolkit.2.5.16.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\mytoolkit.extended\\2.5.16\\mytoolkit.extended.2.5.16.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mytoolkit\\2.2.0\\mytoolkit.2.2.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mytoolkit.extended\\2.2.0\\mytoolkit.extended.2.2.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
