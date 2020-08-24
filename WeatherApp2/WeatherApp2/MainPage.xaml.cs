@@ -39,31 +39,34 @@ namespace WeatherApp2
 
         private async void InitJSON()
         {
-            var url = "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/353412?" + "apikey=YvLXLyI3SiE8xuQKF3p4A1B1I1RksiXR&language=vi-vn&metric=true";
+            var url = "http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/353412?" + "apikey=CxILqfbYMdKI30fs02iXyl2JZJdF2MeU&language=vi-vn&metric=true";
             var list = await WeatherJSON.GetJSON(url) as List<WeatherJSON>;
             Debug.WriteLine("Count" + list.Count);
-            list.ForEach(it =>
+           list.ForEach(it =>
             {
-            var match = Regex.Matches(it.DateTime, "T(?<time>\\d+): ")[0].Groups["time"].Value;
-            if (int.Parse(match) > 12)
-            {
-                match = (int.Parse(match) - 12) + "PM";
-            }
-            else
-            {
-                match += "PM";
-            }
-            it.DateTime = match;
-            it.Temperature.Value += "\u00B0";
-            it.WeatherIcon = string.Format("https://vortex.accuweather.com/adc2010/images/slate/icons/{0}.svg", it.WeatherIcon);
+                var match = Regex.Matches(it.DateTime, "T(?<time>\\d+):")[0].Groups["time"].Value;
+                if (int.Parse(match) > 12)
+                {
+                    match = (int.Parse(match) - 12) + "PM";
+                }
+                else
+                {
+                    match += "PM";
+                }
+
+                it.DateTime = match;
+                it.Temperature.Value += "\u00B0";
+                it.WeatherIcon = string.Format("https://vortex.accuweather.com/adc2010/images/slate/icons/{0}.svg",
+                    it.WeatherIcon);
                 WeatherEachHours.Add(it);
+
             });
             WeatherDescriptionTextBlock.Text = list[0].IconPhrase;
             WeatherTemperatureTextBlock.Text = list[0].Temperature.Value;
         }
         public async void InitEachDaysJSON()
         {
-            var urlFiveDay = "http://dataservice.accuweather.com/forecasts/v1/daily/5day/353412?" + "apikey=YvLXLyI3SiE8xuQKF3p4A1B1I1RksiXR&language=vi-vn&metric=true";
+            var urlFiveDay = "http://dataservice.accuweather.com/forecasts/v1/daily/5day/353412?" + "apikey=CxILqfbYMdKI30fs02iXyl2JZJdF2MeU&language=vi-vn&metric=true";
             var obj = await WeatherEachDay.GetWeatherEach(urlFiveDay) as WeatherEachDay;
             obj.DailyForecasts.ForEach(it =>
             {
