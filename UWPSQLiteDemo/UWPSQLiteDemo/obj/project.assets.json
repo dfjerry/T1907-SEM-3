@@ -8359,11 +8359,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\UWPSQLiteDemo\\UWPSQLiteDemo\\UWPSQLiteDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\dfjerry\\T1907-SEM-3\\UWPSQLiteDemo\\UWPSQLiteDemo\\UWPSQLiteDemo.csproj",
       "projectName": "UWPSQLiteDemo",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\UWPSQLiteDemo\\UWPSQLiteDemo\\UWPSQLiteDemo.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\dfjerry\\T1907-SEM-3\\UWPSQLiteDemo\\UWPSQLiteDemo\\UWPSQLiteDemo.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\UWPSQLiteDemo\\UWPSQLiteDemo\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\dfjerry\\T1907-SEM-3\\UWPSQLiteDemo\\UWPSQLiteDemo\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
