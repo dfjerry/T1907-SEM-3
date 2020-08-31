@@ -14,10 +14,10 @@
             <ImageBrush ImageSource="https://www.pngmart.com/files/7/IPhone-PNG-Picture.png" Stretch="Fill"/>
         </StackPanel.Background>
         <StackPanel VerticalAlignment="Center">
-            <TextBlock x:Name="DateResult" FontSize="14" Foreground="Gray" HorizontalAlignment="Left" Padding="0" Margin="20,0,0,0"/>
-            <TextBlock x:Name="TitleResult" FontSize="16" Foreground="White" HorizontalAlignment="Left" Padding="0" Margin="20,0,0,0"/>
-            <Image x:Name="ImageResult" Width="600" Height="600" HorizontalAlignment="Left" Margin="20,-110,-0,-110"/>
-            <TextBlock Name="ContentResult" FontSize="15" Foreground="White" HorizontalAlignment="Left" Padding="0" Margin="20,0,0,0" Width="600" TextWrapping="Wrap"/>
+            <TextBlock x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="20,150,0,0"/>
+            <TextBlock x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,0,0,0" Width="400" TextWrapping="Wrap"/>
+            <Image x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
+            <TextBlock Name="ContentResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,0,0,0" Width="400" TextWrapping="Wrap"/>
         </StackPanel>
     </StackPanel>
 </Page>
