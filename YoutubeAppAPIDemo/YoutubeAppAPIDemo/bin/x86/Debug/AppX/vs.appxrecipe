@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>75A92760AB4E88425D36C6322EBF7FE599A4D88EE3F95F58B10100C35089FF0A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1F49DFAF80D2FCF584FE06A16F7858A0D39FA469B4AD4A0F4A2810AB14E21A99</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>583f1ae4-64ed-4690-80f6-fa72307395d1_1.0.0.0_x86__5gyrq6psz227t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>583f1ae4-64ed-4690-80f6-fa72307395d1_5gyrq6psz227t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>583f1ae4-64ed-4690-80f6-fa72307395d1</RegisteredPackageID>
@@ -30,21 +30,33 @@
     <AppXManifest Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-31T03:42:00.237</Modified>
+      <Modified>2020-08-31T05:25:51.710</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\YoutubeAppAPIDemo.exe">
       <PackagePath>entrypoint\YoutubeAppAPIDemo.exe</PackagePath>
-      <Modified>2020-08-31T03:41:59.692</Modified>
+      <Modified>2020-08-31T05:25:50.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T12:16:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\sqlite.net-pcl\3.1.1\lib\Windows8\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+      <Modified>2015-11-06T10:18:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\sqlite.net.core-pcl\3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+      <Modified>2015-11-06T10:18:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.33.0\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2020-08-26T04:30:08.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -86,15 +98,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\YoutubeAppAPIDemo.xr.xml">
       <PackagePath>YoutubeAppAPIDemo.xr.xml</PackagePath>
-      <Modified>2020-08-31T03:41:59.536</Modified>
+      <Modified>2020-08-31T05:25:50.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-31T03:15:39.645</Modified>
+      <Modified>2020-08-31T04:57:33.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-31T03:41:59.539</Modified>
+      <Modified>2020-08-31T05:25:50.637</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-31T03:15:40.331</Modified>
+      <Modified>2020-08-31T04:57:34.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\YoutubeAppAPIDemo\YoutubeAppAPIDemo\bin\x86\Debug\Core\YoutubeAppAPIDemo.exe">
       <PackagePath>YoutubeAppAPIDemo.exe</PackagePath>
-      <Modified>2020-08-31T03:42:00.231</Modified>
+      <Modified>2020-08-31T05:25:51.694</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

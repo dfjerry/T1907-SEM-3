@@ -11,13 +11,55 @@
 
     <StackPanel>
         <StackPanel.Background>
-            <ImageBrush ImageSource="https://www.pngmart.com/files/7/IPhone-PNG-Picture.png" Stretch="Fill"/>
+            <ImageBrush ImageSource="https://www.pngmart.com/files/7/IPhone-PNG-Picture.png" Stretch="None"/>
         </StackPanel.Background>
+        <SplitView x:ConnectionId='2' Name="MySplitView"
+                   Grid.Row="1"
+                   DisplayMode="CompactOverlay"
+                   OpenPaneLength="150"
+                   CompactPaneLength="45">
+            <SplitView.Pane>
+                <ListBox SelectionMode="Single">
+
+                    <ListBoxItem x:ConnectionId='8' Name="Financial">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock
+                                Text="&#xE80F;"
+                                FontFamily="Segoe MDL2 Assets"
+                                FontSize="20"/>
+                            <TextBlock Text="Financial"
+                                       FontSize="18"
+                                       Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+                    <ListBoxItem x:ConnectionId='9' Name="Food">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE1CE;"
+                                                FontFamily="Segoe MDL2 Assets"
+                                                FontSize="20"/>
+                            <TextBlock Text="Food"
+                                                FontSize="18"
+                                                Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+                </ListBox>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <GridView x:ConnectionId='10' Name="NewsItemGrid"               
+                          HorizontalAlignment="Stretch"
+                          Margin="10,0,0,0" Height="1000">
+
+                </GridView>
+
+            </SplitView.Content>
+        </SplitView>
+   
         <StackPanel VerticalAlignment="Center">
-            <TextBlock x:ConnectionId='2' x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="20,150,0,0"/>
-            <TextBlock x:ConnectionId='3' x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,0,0,0" Width="400" TextWrapping="Wrap"/>
-            <Image x:ConnectionId='4' x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
-            <TextBlock x:ConnectionId='5' Name="ContentResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,0,0,0" Width="400" TextWrapping="Wrap"/>
+            <Button x:ConnectionId='3'                      HorizontalAlignment="Center" Margin="-250,50,0,0">Save favorite</Button>
+            <TextBlock x:ConnectionId='4' x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="-230,20,0,0"/>
+            <TextBlock x:ConnectionId='5' x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,10" Width="380" TextWrapping="Wrap"/>
+            <Image x:ConnectionId='6' x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
+            <TextBlock x:ConnectionId='7' Name="ContentResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,0" Width="380" TextWrapping="Wrap"/>
         </StackPanel>
     </StackPanel>
 </Page>

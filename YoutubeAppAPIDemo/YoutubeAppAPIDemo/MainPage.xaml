@@ -11,13 +11,55 @@
 
     <StackPanel>
         <StackPanel.Background>
-            <ImageBrush ImageSource="https://www.pngmart.com/files/7/IPhone-PNG-Picture.png" Stretch="Fill"/>
+            <ImageBrush ImageSource="https://www.pngmart.com/files/7/IPhone-PNG-Picture.png" Stretch="None"/>
         </StackPanel.Background>
+        <SplitView Name="MySplitView"
+                   Grid.Row="1"
+                   DisplayMode="CompactOverlay"
+                   OpenPaneLength="150"
+                   CompactPaneLength="45">
+            <SplitView.Pane>
+                <ListBox SelectionMode="Single">
+
+                    <ListBoxItem Name="Financial">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock
+                                Text="&#xE80F;"
+                                FontFamily="Segoe MDL2 Assets"
+                                FontSize="20"/>
+                            <TextBlock Text="Financial"
+                                       FontSize="18"
+                                       Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+                    <ListBoxItem Name="Food">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE1CE;"
+                                                FontFamily="Segoe MDL2 Assets"
+                                                FontSize="20"/>
+                            <TextBlock Text="Food"
+                                                FontSize="18"
+                                                Margin="20,0,0,0"/>
+                        </StackPanel>
+                    </ListBoxItem>
+                </ListBox>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <GridView Name="NewsItemGrid"               
+                          HorizontalAlignment="Stretch"
+                          Margin="10,0,0,0" Height="100">
+
+                </GridView>
+
+            </SplitView.Content>
+        </SplitView>
+   
         <StackPanel VerticalAlignment="Center">
-            <TextBlock x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="20,150,0,0"/>
-            <TextBlock x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,0,0,0" Width="400" TextWrapping="Wrap"/>
+            <Button Click="Button_Click" HorizontalAlignment="Center" Margin="-250,50,0,0">Save favorite</Button>
+            <TextBlock x:Name="DateResult" FontSize="10" Foreground="Gray" HorizontalAlignment="Center" Padding="0" Margin="-230,20,0,0"/>
+            <TextBlock x:Name="TitleResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,10" Width="380" TextWrapping="Wrap"/>
             <Image x:Name="ImageResult" Width="370" Height="400" HorizontalAlignment="Center" Margin="20,-90,-0,-90"/>
-            <TextBlock Name="ContentResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,0,0,0" Width="400" TextWrapping="Wrap"/>
+            <TextBlock Name="ContentResult" FontSize="11" Foreground="White" HorizontalAlignment="Center" Padding="0" Margin="30,10,0,0" Width="380" TextWrapping="Wrap"/>
         </StackPanel>
     </StackPanel>
 </Page>

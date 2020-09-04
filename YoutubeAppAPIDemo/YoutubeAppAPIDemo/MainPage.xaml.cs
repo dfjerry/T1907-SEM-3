@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 using static YoutubeAppAPIDemo.Models.Paper;
+using SQLite.Net.Attributes;
+using System.Diagnostics;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -25,9 +27,36 @@ namespace YoutubeAppAPIDemo
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        SQLite.Net.SQLiteConnection conn;
+        public class BookMark
+        {
+            [PrimaryKey, AutoIncrement]
+            public int Id { get; set; }
+            public string image { get; set; }
+            public string date { get; set; }
+            public string description { get; set; }
+            public string title { get; set; }
+        }
         public MainPage()
         {
             this.InitializeComponent();
+            string path = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "db.sqlite");
+            conn = new SQLite.Net.SQLiteConnection(new SQLite.Net.Platform.WinRT.SQLitePlatformWinRT(), path);
+            conn.CreateTable<BookMark>();
+          
+            var query = conn.Table<BookMark>();
+            string date = "";
+            string title = "";
+            string image = "";
+            string desc = "";
+            foreach(var bookmark in query)
+            {
+                date = bookmark.date;
+                title = bookmark.title;
+                image = bookmark.image;
+                desc = bookmark.description;
+            }
+                
         }
         public async void Page_Loaded(object sender, RoutedEventArgs e)
         {
@@ -45,6 +74,18 @@ namespace YoutubeAppAPIDemo
             {
 
             }
+        }
+
+        public async void Button_Click(object sender, RoutedEventArgs e)
+        {
+      
+            var page = conn.Insert(new BookMark()
+            {
+                date = DateResult.Text,
+                title = TitleResult.Text,
+                image = ImageResult.Source.ToString(),
+                description = ContentResult.Text,
+            });
         }
     }
 }
