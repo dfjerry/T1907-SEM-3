@@ -52,6 +52,7 @@ namespace PractiCalUWP
                     Name = Name.Text,
                     PhoneNumber = Phone.Text,
                 });
+                Comment.Text = "Đã thêm liên hệ!";
             }
             catch (Exception ex)
             {
@@ -83,11 +84,30 @@ namespace PractiCalUWP
                 NameResult = NameResult + " " + q.Name;
                 PhoneResult = PhoneResult + " " + q.PhoneNumber;
             }
+            
             Result.Text = "Name: " + NameResult + "\nPhoneNumber: " + PhoneResult;
         }
         private void DeleteContact(object sender, RoutedEventArgs e)
         {
             connect.Execute("DELETE FROM Contact");
+            Comment.Text = "Đã xóa tất cả contact";
+        }
+        private void UpdateContact(object sender, RoutedEventArgs e)
+        {   
+
+            string NameValue = Name.Text;
+            string PhoneNumberValue = Phone.Text;
+            var updateContact = connect.Table<Contact>().Where(x => x.Name == NameValue).FirstOrDefault();
+            if(updateContact != null)
+            {
+                updateContact.Name = NameValue;
+                updateContact.PhoneNumber = PhoneNumberValue;
+                connect.RunInTransaction(() =>
+                {
+                    connect.Update(updateContact);
+                });
+                Comment.Text = "Đã cập nhật liên hệ: " + NameValue;
+            }
         }
     }
 }

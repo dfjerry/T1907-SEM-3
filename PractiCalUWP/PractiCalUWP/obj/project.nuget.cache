@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vNEJIemeJ/VeymAzn2ucR/5jTQug/t6EPHRM7J3BzGTA5AgfAtbz3ixdtEXZjHqLINo7yD88n+h9XsFekBv1vA==",
+  "dgSpecHash": "2JCgy7vSEWykY7TKIbFh96TJytA4SamQL3UFEN6+NrnR/vQJCk8iFsVqxL9SX55lrbyx3QfozqsxJ/n1W+rKfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\PractiCalUWP\\PractiCalUWP\\PractiCalUWP.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\dfjerry\\T1907-SEM-3\\PractiCalUWP\\PractiCalUWP\\PractiCalUWP.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

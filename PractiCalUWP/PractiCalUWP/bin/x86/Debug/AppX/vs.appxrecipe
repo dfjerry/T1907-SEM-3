@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>21e4c2ee-806a-42bb-b69e-2efe1099d20f</PackageIdentityName>
     <PackageIdentityPublisher>CN=Admin</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>7CE7387EDD235DB86F9461F714808E96C44F6F057A44FA7EFE0B0D6EE4A8B3E8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>21e4c2ee-806a-42bb-b69e-2efe1099d20f_1.0.0.0_x86__5gyrq6psz227t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>21e4c2ee-806a-42bb-b69e-2efe1099d20f_5gyrq6psz227t!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-04T02:35:41.198</Modified>
+      <Modified>2020-09-04T03:26:03.896</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\PractiCalUWP.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\PractiCalUWP.exe">
       <PackagePath>entrypoint\PractiCalUWP.exe</PackagePath>
-      <Modified>2020-09-04T02:35:40.733</Modified>
+      <Modified>2020-09-04T03:26:03.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -58,67 +58,67 @@
       <PackagePath>sqlite3.dll</PackagePath>
       <Modified>2020-08-26T04:30:08.652</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-09-04T01:52:27.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2020-08-08T15:24:42.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-08-08T15:24:42.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\PractiCalUWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\PractiCalUWP.xr.xml">
       <PackagePath>PractiCalUWP.xr.xml</PackagePath>
-      <Modified>2020-09-04T02:08:28.297</Modified>
+      <Modified>2020-09-04T03:23:12.764</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-04T02:35:40.574</Modified>
+      <Modified>2020-09-04T03:26:03.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-04T02:35:40.574</Modified>
+      <Modified>2020-09-04T03:26:03.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T10:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2020-09-04T02:03:48.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\bin\x86\Debug\Core\PractiCalUWP.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\bin\x86\Debug\Core\PractiCalUWP.exe">
       <PackagePath>PractiCalUWP.exe</PackagePath>
-      <Modified>2020-09-04T02:35:41.192</Modified>
+      <Modified>2020-09-04T03:26:03.889</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

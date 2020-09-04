@@ -1,1 +1,1 @@
-C:\Users\Admin\source\repos\PractiCalUWP\PractiCalUWP\PractiCalUWP.csproj;x86
+C:\Users\Admin\source\repos\dfjerry\T1907-SEM-3\PractiCalUWP\PractiCalUWP\PractiCalUWP.csproj;x86

@@ -9,6 +9,7 @@
     >
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  
         <Button x:Name="AddContact" Content="Add Contact"
                 VerticalAlignment="Top" Margin="290,435,0,0"
                 Click="Add_Contact" Width="100"/>
@@ -21,6 +22,9 @@
         <Button x:Name="DeleteAll" Content="Delete Contact"
                 VerticalAlignment="Top" Margin="660,435,0,0"
                 Click="DeleteContact" Width="120"/>
+        <Button x:Name="Updatecontact" Content="Update Contact"
+                VerticalAlignment="Top" Margin="680,255,0,0"
+                Click="UpdateContact" Width="120"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left"
                    TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"
                    Margin="290,204,0,0" Width="52"/>
@@ -46,6 +50,9 @@
                    Width="370" Height="38"/>
         <TextBlock x:Name="Result" HorizontalAlignment="Left"
                    Margin="300,500,0,0" TextWrapping="Wrap"
+                   VerticalAlignment="Top" Width="774" Height="131"/>
+        <TextBlock x:Name="Comment" HorizontalAlignment="Left"
+                   Margin="300,700,0,0" TextWrapping="Wrap"
                    VerticalAlignment="Top" Width="774" Height="131"/>
     </Grid>
 </Page>
