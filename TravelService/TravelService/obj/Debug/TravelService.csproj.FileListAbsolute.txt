@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\TravelService\TravelService\bin\TravelService.dll.config
+C:\Users\Admin\source\repos\TravelService\TravelService\bin\TravelService.dll
+C:\Users\Admin\source\repos\TravelService\TravelService\bin\TravelService.pdb
+C:\Users\Admin\source\repos\TravelService\TravelService\obj\Debug\TravelService.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\TravelService\TravelService\obj\Debug\TravelService.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TravelService\TravelService\obj\Debug\TravelService.dll
+C:\Users\Admin\source\repos\TravelService\TravelService\obj\Debug\TravelService.pdb
